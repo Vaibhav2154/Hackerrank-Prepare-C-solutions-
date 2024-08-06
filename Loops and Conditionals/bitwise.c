@@ -2,7 +2,6 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-
 void calculate_the_maximum(int n,int k)
 {
     int maxvalue[3]={0}, aux[3]={0};
@@ -23,13 +22,11 @@ void calculate_the_maximum(int n,int k)
           {
               maxvalue[l]=aux[l];
           }
-             
-         }   
-            
-        }
+        }   
+       }
       }
     }
-    printf("%d\n%d\n%d",maxvalue[0],maxvalue[1],maxvalue[2]);
+printf("%d\n%d\n%d",maxvalue[0],maxvalue[1],maxvalue[2]);
 }
 
 int main()
